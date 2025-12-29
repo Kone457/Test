@@ -5,7 +5,7 @@ const app = express();
 
 
 app.use("/", createProxyMiddleware({
-  target: "http://145.239.65.119:20152",
+  target: "http://ip:puerto",
   changeOrigin: true,
   ws: true 
 }));
